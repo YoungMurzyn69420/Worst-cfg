@@ -40,9 +40,12 @@
       "Materials": [
         {
           "Alpha": 0.025157213,
-          "Color": "#ffc29e",
+          "Blinking": true,
+          "Color": "#0b9beb",
+          "Enabled": true,
           "Ignore-Z": true,
-          "Material": 1
+          "Material": 1,
+          "Rainbow Speed": 13.4
         },
         {},
         {},
@@ -65,7 +68,15 @@
     },
     "Desync": {
       "Materials": [
-        {},
+        {
+          "Alpha": 1.0,
+          "Blinking": true,
+          "Color": "#e03e3e",
+          "Cover": true,
+          "Enabled": true,
+          "Ignore-Z": true,
+          "Material": 3
+        },
         {},
         {},
         {},
@@ -141,10 +152,12 @@
       "Materials": [
         {
           "Alpha": 0.5534591,
-          "Color": "#7de4ff",
+          "Color": "#074d60",
           "Cover": true,
           "Enabled": true,
-          "Material": 11
+          "Material": 11,
+          "Rainbow": true,
+          "Rainbow Speed": 1.1
         },
         {
           "Alpha": 0.6289308,
@@ -617,10 +630,10 @@
       "Enabled": true,
       "Fov": 255.0,
       "Hitboxes": 7,
-      "Hitchance": 75,
-      "Min damage": 38,
-      "Multipoint Body": 38,
-      "Multipoint Head": 26,
+      "Hitchance": 92,
+      "Min damage": 89,
+      "Multipoint Body": 72,
+      "Multipoint Head": 50,
       "Silent": true
     },
     {},
